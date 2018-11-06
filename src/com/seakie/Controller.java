@@ -11,7 +11,7 @@ public class Controller {
 		if (name != null) {
 			return "Hello, " + name;
 		} else {
-			return "Please input URL like http://localhost:8080/?name=Someone";
+			return "Please input URL like http://localhost/?name=Someone";
 		}
 	}
 	
